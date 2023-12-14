@@ -6,7 +6,9 @@ class score(models.Model):
     w1 = models.FloatField(null=True,blank=True)
     w2 = models.FloatField(null=True,blank=True)
     w3 = models.FloatField(null=True,blank=True)
-    
+    nsr = models.FloatField(null=True, blank=True)
+    rb = models.FloatField(null=True, blank=True)
+    sensitivity = models.FloatField(null=True, blank=True)
     pdm_score = models.FloatField(null=False,blank=False)
     created_datetime = models.DateTimeField(auto_now_add=True)
     
